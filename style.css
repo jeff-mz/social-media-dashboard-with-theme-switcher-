@@ -146,7 +146,16 @@ body {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-
+.icon-up {
+  transform: translateY(-2px);
+  width: 12px;
+  height: 12px;
+}
+.icon-down {
+  transform: translateY(2px);
+  width: 12px;
+  height: 12px;
+}
 .social-card:hover {
   background: var(--card-hover-bg);
   transform: translateY(-0.25rem);
